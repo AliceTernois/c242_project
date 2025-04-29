@@ -1,8 +1,0 @@
-✅ Best Config:
-Learning Rate = 0.01
-Batch Size    = 32
-L2 Regularization = 0.0001
-Dropout       = 0
-Hidden Dims   = [256, 128, 64]
-Activation    = gelu
-Batch Norm    = False
