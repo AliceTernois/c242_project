@@ -20,7 +20,7 @@ During the project, the [1439, 6] descriptors dataset was first used, and then t
 Use RDKIT descriptors and Morgan Fingerprints extracted from the ligands SMILES as input features to predict the inhibitory constant Ki linked with receptor Dopamine D(2) as an output.
 
 ## Machine Learning Methods 
-XGBoost:
+XGBoost: XGBoost Regressor applied to the RDKIT descriptor dataset and the Morgan fingerprint data. Used RandomizedSearchCV to automatically determine best hyperparameters, then further manually adjusted hyperparameters for better tuning.
 
 Neural Network: Multi-layer Perceptron (MLP). Multiple architectures of different depth and width tested, as well as different hyperparameters. First using the RDKIT descriptors dataset, then using the 512 morgan fingerprints gave better results.
 
@@ -44,6 +44,6 @@ Data Loading: Loads data_splits.pkl with:
 Model Training & Evaluation: Trains and evaluates models on X_train, y_train and tests on X_test, y_test.
 
 ### Workflow:
-data_processor.ipynb: Processes and splits data, saves to data_splits.pkl.
+data_processor.ipynb: Processes and splits data, saves to data_splits.pkl and data_splits_fps.pkl.
 
 MLP.ipynb and XGBoost.ipynb: Train and evaluate models using the preprocessed data.
