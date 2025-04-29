@@ -1,0 +1,56 @@
+
+🔧 Testing: LR=0.01, Batch Size=32, L2=0, Dropout=0
+✅ Cross-Validation Results over 5 folds:
+→ Avg Train MSE: 0.3902
+→ Avg Val MSE:   0.5987
+
+
+🔧 Testing: LR=0.01, Batch Size=32, L2=0, Dropout=0.2
+✅ Cross-Validation Results over 5 folds:
+→ Avg Train MSE: 0.3889
+→ Avg Val MSE:   0.5909
+
+
+🔧 Testing: LR=0.01, Batch Size=32, L2=0, Dropout=0.5
+✅ Cross-Validation Results over 5 folds:
+→ Avg Train MSE: 0.4209
+→ Avg Val MSE:   0.5878
+
+
+🔧 Testing: LR=0.01, Batch Size=32, L2=1e-05, Dropout=0
+✅ Cross-Validation Results over 5 folds:
+→ Avg Train MSE: 0.3812
+→ Avg Val MSE:   0.5921
+
+
+🔧 Testing: LR=0.01, Batch Size=32, L2=1e-05, Dropout=0.2
+✅ Cross-Validation Results over 5 folds:
+→ Avg Train MSE: 0.3961
+→ Avg Val MSE:   0.6009
+
+
+🔧 Testing: LR=0.01, Batch Size=32, L2=1e-05, Dropout=0.5
+✅ Cross-Validation Results over 5 folds:
+→ Avg Train MSE: 0.4121
+→ Avg Val MSE:   0.5897
+
+
+🔧 Testing: LR=0.01, Batch Size=32, L2=0.0001, Dropout=0
+✅ Cross-Validation Results over 5 folds:
+→ Avg Train MSE: 0.3863
+→ Avg Val MSE:   0.5864
+
+
+🔧 Testing: LR=0.01, Batch Size=32, L2=0.0001, Dropout=0.2
+✅ Cross-Validation Results over 5 folds:
+→ Avg Train MSE: 0.3896
+→ Avg Val MSE:   0.5901
+
+
+🔧 Testing: LR=0.01, Batch Size=32, L2=0.0001, Dropout=0.5
+✅ Cross-Validation Results over 5 folds:
+→ Avg Train MSE: 0.3960
+→ Avg Val MSE:   0.5953
+
+
+🔧 Testing: LR=0.01, Batch Size=64, L2=0, Dropout=0

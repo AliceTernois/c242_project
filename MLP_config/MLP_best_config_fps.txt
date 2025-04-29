@@ -1,0 +1,5 @@
+✅ Best Config:
+Learning Rate = 0.01
+Batch Size    = 128
+L2 Regularization = 1e-05
+Dropout       = 0.5
